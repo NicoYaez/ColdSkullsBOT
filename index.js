@@ -1,17 +1,4 @@
 const { Client, RichEmbed } = require('discord.js');
-var CronJob = require('cron').CronJob;
-
-var job = new CronJob(
-	'* * * * * *',
-	function() {
-		console.log('You will see this message every second');
-	},
-	null,
-	true,
-	'America/Santiago'
-);
-
-
 const client = new Client();
 
 client.on('ready', () => {
@@ -34,5 +21,5 @@ client.on('message', msg => {
 
 })
 
-const token = 'ODMyNzE3NjM3NzkyMTcwMDA0.YHn2uw.w9cy-QSFGj3rj8f3PsDY8nFNhpE';
+const token = 'token aqui';
 client.login(token);
