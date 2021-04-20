@@ -14,8 +14,6 @@ client.on('ready', () => {
         }
     } );
 
-    //client.user.setStatus('online'); // online, idle, invisible, dnd
-
 });
 
 
@@ -88,8 +86,6 @@ client.on('message', msg => {
 	        .setFooter("ColdSkulls Ayuda!", "https://cdn.discordapp.com/attachments/639904843888197674/831627776821035098/Logodcc.png");
         msg.channel.send(embed);
     }
-
-
 
 });
 
